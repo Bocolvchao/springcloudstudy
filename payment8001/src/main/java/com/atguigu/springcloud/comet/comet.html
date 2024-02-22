@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WebSocket</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            connect();
+            $("#btn").click(function () {
+                var value = $("#message").val();
+                $.ajax({
+                    url: "http://localhost:8001/longpolling?method=onMessage&msg=" + value,
+                    cache: false,
+                    dataType: "text",
+                    success: function (data) {
+
+                    }
+                });
+            });
+        });
+
+        function connect() {
+            $.ajax({
+                url: "http://localhost:8001/longpolling?method=onOpen",
+                cache: false,
+                dataType: "text",
+                success: function (data) {
+                    connect();
+                    alert(data);
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<h1>LongPolling</h1>
+<input type="text" id="message"/>
+<input type="button" id="btn" value="发送"/>
+</body>
+</html>

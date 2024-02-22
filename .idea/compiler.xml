@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-consumerconsul-order80" />
+        <module name="cloud-eureka-server7002" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-provider-payment8004" />
+        <module name="cloud-eureka-server7001" />
+        <module name="cloud-consumerzk-order80" />
+        <module name="cloud-consumer-order80" />
+        <module name="cloudprovidehystrixpayment8001" />
+        <module name="cloud-providerconsul-payment8006" />
+        <module name="netty-project" />
+        <module name="cloudconsumerfeginorder80" />
+        <module name="payment8002" />
+        <module name="payment8001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="cloud-api-commons" target="1.8" />
+      <module name="cloud-consumer-order80" target="1.8" />
+      <module name="cloud-consumerconsul-order80" target="1.8" />
+      <module name="cloud-consumerzk-order80" target="1.8" />
+      <module name="cloud-eureka-server7001" target="1.8" />
+      <module name="cloud-eureka-server7002" target="1.8" />
+      <module name="cloud-provider-payment8004" target="1.8" />
+      <module name="cloud-providerconsul-payment8006" target="1.8" />
+      <module name="cloudconsumerfeginorder80" target="1.8" />
+      <module name="cloudprovidehystrixpayment8001" target="1.8" />
+      <module name="netty-project" target="1.8" />
+      <module name="payment8001" target="1.8" />
+      <module name="payment8002" target="1.8" />
+      <module name="spring-cloud-study" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-api-commons" options="" />
+      <module name="payment8001" options="" />
+      <module name="spring-cloud-study" options="" />
+    </option>
+  </component>
+</project>

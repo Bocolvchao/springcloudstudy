@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RedisConfiguration">
+    <option name="serverConfigurations">
+      <list>
+        <ServerConfiguration>
+          <option name="label" value="hall10.3" />
+          <option name="password" value="WXredis123" />
+          <option name="sercurityInfo">
+            <SercurityInfo>
+              <option name="sshUsePassword" value="true" />
+            </SercurityInfo>
+          </option>
+          <option name="serverUrl" value="10.61.10.3:6379" />
+          <option name="userName" value="" />
+        </ServerConfiguration>
+        <ServerConfiguration>
+          <option name="label" value="hall10.4" />
+          <option name="password" value="WXredis123" />
+          <option name="sercurityInfo">
+            <SercurityInfo />
+          </option>
+          <option name="serverUrl" value="10.61.10.4:6379" />
+          <option name="userName" value="" />
+        </ServerConfiguration>
+      </list>
+    </option>
+  </component>
+</project>
