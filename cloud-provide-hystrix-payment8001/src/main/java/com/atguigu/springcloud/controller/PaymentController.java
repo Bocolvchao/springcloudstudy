@@ -19,6 +19,11 @@ public class PaymentController {
     private String port;
 
 
+    /**
+     * http://localhost:8001/get/31
+     * @param id
+     * @return
+     */
     @GetMapping("get/{id}")
     public CommonResult<String> paymentInfo_OK(@PathVariable("id") Integer id) {
         String message = paymentService.paymentInfo_OK(id);
@@ -26,6 +31,11 @@ public class PaymentController {
     }
 
 
+    /**
+     * http://localhost:8001/getError/31
+     * @param id
+     * @return
+     */
     @GetMapping("getError/{id}")
     public CommonResult<String> getError(@PathVariable("id") Integer id) {
         String message = paymentService.paymentInfo_Error(id);

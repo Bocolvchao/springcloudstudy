@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-consumer-fegin-order80/cloudconsumerfeginorder80.iml" filepath="$PROJECT_DIR$/cloud-consumer-fegin-order80/cloudconsumerfeginorder80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumer-hystri-order80/cloudconsumerhystriorder80.iml" filepath="$PROJECT_DIR$/cloud-consumer-hystri-order80/cloudconsumerhystriorder80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provide-hystrix-payment8001/cloudprovidehystrixpayment8001.iml" filepath="$PROJECT_DIR$/cloud-provide-hystrix-payment8001/cloudprovidehystrixpayment8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-study-test/cloudstudytest.iml" filepath="$PROJECT_DIR$/cloud-study-test/cloudstudytest.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-project/netty-project.iml" filepath="$PROJECT_DIR$/netty-project/netty-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/payment8001/payment8001.iml" filepath="$PROJECT_DIR$/payment8001/payment8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/payment8002/payment8002.iml" filepath="$PROJECT_DIR$/payment8002/payment8002.iml" />
