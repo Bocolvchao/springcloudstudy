@@ -10,9 +10,7 @@ public class FileChannel02 {
         File file = new File("D:\\data\\a.txt");
         FileInputStream inputStream = new FileInputStream(file);
         FileChannel channel = inputStream.getChannel();
-
         ByteBuffer byteBuffer = ByteBuffer.allocate((int) file.length());
-
         channel.read(byteBuffer);
         System.out.println(new String(byteBuffer.array()));
     }

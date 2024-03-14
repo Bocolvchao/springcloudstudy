@@ -42,4 +42,17 @@ public class PaymentController {
         return new CommonResult<String>(200, "查询成功，端口号" + port, message);
     }
 
+
+    /***
+     *  http://localhost:8001/paymentCircuitBreak/31
+     * 测试
+     * @param id
+     * @return
+     */
+    @GetMapping("paymentCircuitBreak/{id}")
+    public CommonResult<String> paymentCircuitBreak(@PathVariable("id") Integer id) {
+        String message = paymentService.paymentCircuitBreak(id);
+        return new CommonResult<String>(200, "查询成功paymentCircuitBreak，端口号" + port, message);
+    }
+
 }
