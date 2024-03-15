@@ -31,7 +31,7 @@ public class PaymentController {
 
     /**
      * 通过主键查询单条数据
-     *
+     * localhost:8001/payment/get/31
      * @param id 主键
      * @return 单条数据
      */
@@ -42,6 +42,10 @@ public class PaymentController {
         return new CommonResult<Payment>(200, "查询成功，端口号" + port, payment);
     }
 
+    /**
+     * http://localhost:8001/payment/getDiscovery
+     * @return
+     */
     @GetMapping("getDiscovery")
     public Object getDiscovery() {
         List<String> list = discoveryClient.getServices();

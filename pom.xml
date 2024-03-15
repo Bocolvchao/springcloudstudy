@@ -25,6 +25,9 @@
         <module>cloud-provide-hystrix-payment8001</module>
         <module>cloud-consumer-hystri-order80</module>
         <module>cloud-study-test</module>
+        <module>cloud-consumer-hystrix-dashboard9001</module>
+        <module>cloud-spring-gateway9527</module>
+        <module>cloud-config-center</module>
     </modules>
     <!-- 统一管理jar包版本 -->
     <properties>

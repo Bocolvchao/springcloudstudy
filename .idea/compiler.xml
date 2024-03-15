@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-consumer-order80" />
+        <module name="cloudspringgateway9527" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-eureka-server7001" />
         <module name="cloud-api-commons" />
@@ -20,6 +21,7 @@
         <module name="payment8001" />
         <module name="cloud-providerconsul-payment8006" />
         <module name="cloud-consumer-hystri-order80" />
+        <module name="cloudconsumerhystrixdashboard9001" />
         <module name="netty-project" />
         <module name="cloudprovidehystrixpayment8001" />
         <module name="cloudconsumerfeginorder80" />
@@ -37,7 +39,9 @@
       <module name="cloud-providerconsul-payment8006" target="1.8" />
       <module name="cloudconsumerfeginorder80" target="1.8" />
       <module name="cloudconsumerhystriorder80" target="1.8" />
+      <module name="cloudconsumerhystrixdashboard9001" target="1.8" />
       <module name="cloudprovidehystrixpayment8001" target="1.8" />
+      <module name="cloudspringgateway9527" target="1.8" />
       <module name="cloudstudytest" target="1.8" />
       <module name="netty-project" target="1.8" />
       <module name="payment8001" target="1.8" />
