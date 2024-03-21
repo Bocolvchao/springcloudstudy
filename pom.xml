@@ -28,6 +28,8 @@
         <module>cloud-consumer-hystrix-dashboard9001</module>
         <module>cloud-spring-gateway9527</module>
         <module>cloud-config-center</module>
+        <module>cloud-config-client3355</module>
+        <module>cloud-config-client3366</module>
     </modules>
     <!-- 统一管理jar包版本 -->
     <properties>
